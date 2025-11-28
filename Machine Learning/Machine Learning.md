@@ -48,13 +48,13 @@ Machine Learning is a subset of AI
 
 #### Setup
 
-![[Pasted image 20240409020055.png]]
+![[03 Coding/Machine Learning/REPOSITORY_UPDATE_SUMMARY-1.png]]
 - Software Distributions
 	- Anaconda
 	- Miniconda
 	- Conda (Package Manager)
 
-![[Pasted image 20240409020238.png]]
+![[03 Coding/Machine Learning/REPOSITORY_UPDATE_SUMMARY.png]]
 
  
 

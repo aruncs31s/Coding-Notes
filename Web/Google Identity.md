@@ -9,7 +9,7 @@ dg-publish: true
 # Google Identity
 
 It is an implementation of Federated Identity Management (FIM) that allows users to sign in to third-party applications using their Google account credentials.
-![[Pasted image 20250629205317.png]]
+![[03 Coding/Web/attachments/REPOSITORY_UPDATE_SUMMARY.png]]
 
 ## Implementation
 

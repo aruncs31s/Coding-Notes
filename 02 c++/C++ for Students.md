@@ -723,7 +723,7 @@ but for the first program the output will be
 **static** storage classes are often used to find total number of objects of some class , you will learn about c++ class in [[Intermediate|this]] **intermediate** section. 
 
 ### Register Storage Class (`register`)
-![[Pasted image 20250528231121.png]]
+![[03 Coding/02 c++/attachments/REPOSITORY_UPDATE_SUMMARY-1.png]]
 as the release of c++17 this is deprecated , but it is still used in c programming language.
 
 ```cpp
