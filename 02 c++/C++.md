@@ -11,7 +11,7 @@ dg-publish: true
 
 - [[Functions]]
 - [[structs]]
-- [[unions]]
+- [[03 Coding/01 C/Basics/unions]]
 - [[03 Coding/02 c++/Basics/Classes]]
 - [[Cpp Pointers]]
 - [[Data Types]]

@@ -14,7 +14,7 @@ dg-publish: true
 ## Constructors 
 *It is special function which initializes the objects of its classes*
 #rules 
-- it is like the [[Python For Engineers#^798cac|Init Function]] in [[python]]
+- it is like the [[Python For Engineers#^798cac|Init Function]] in [[Python]]
 - it invoked automatically when an object is created 
 - It's name is same as the class name
 - Should be declared in `public` 

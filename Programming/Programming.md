@@ -20,7 +20,7 @@ Programming Languages can follow one or more programming paradigms
 - [[Object]]
 - [[God Object]]
 ## Languages 
-1. [[python]]
+1. [[Python]]
 2. [[javascript]] 
 3. [[Coding/C]]
 4. [[Coding/c++/C++|C++]] 

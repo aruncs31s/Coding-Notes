@@ -1,0 +1,84 @@
+{
+  "conversations": [
+    {
+      "id": "1763109660771",
+      "title": "Write H(z)H(z)H(z) as a power ...",
+      "messages": [
+        {
+          "id": "1763109660771",
+          "content": "Write H(z)H(z)H(z) as a power series in z−1z^{-1}z−1: make this obsidian latex",
+          "role": "user",
+          "timestamp": 1763109660771
+        },
+        {
+          "id": "chatcmpl-CbjeXHBPDmymHQFOnX94N8IUqdTTi",
+          "content": "To write \\( H(z)H(z)H(z) \\) as a power series in \\( z^{-1} \\) using LaTeX in Obsidian, you can use the following format:\n\n```markdown\n\\[\nH(z)H(z)H(z) = \\sum_{n=0}^{\\infty} a_n z^{-n}\n\\]\n```\n\nIn this expression, \\( a_n \\) represents the coefficients of the power series expansion. If you have specific coefficients or a specific function for \\( H(z) \\), you can replace the general form with the actual series expansion.",
+          "role": "assistant",
+          "timestamp": 1763109663170
+        },
+        {
+          "id": "1763109878212",
+          "content": "For causal LTI systems you usually have \n𝐻\n(\n𝑧\n)\n=\n∑\n𝑛\n=\n0\n∞\nℎ\n[\n𝑛\n]\n𝑧\n−\n𝑛\nH(z)=∑\nn=0\n∞\n\t​\n\nh[n]z\n−n\n. give tihs",
+          "role": "user",
+          "timestamp": 1763109878212
+        },
+        {
+          "id": "chatcmpl-Cbji3WtV9dOEMJLVxRKzv6tsdS1Qa",
+          "content": "For a causal Linear Time-Invariant (LTI) system, the transfer function \\( H(z) \\) can be expressed as a power series in \\( z^{-1} \\). In LaTeX for Obsidian, you can write it as follows:\n\n```markdown\n\\[\nH(z) = \\sum_{n=0}^{\\infty} h[n] z^{-n}\n\\]\n```\n\nHere, \\( h[n] \\) represents the impulse response of the system, and the series is summed over \\( n \\) from 0 to infinity, indicating that the system is causal.",
+          "role": "assistant",
+          "timestamp": 1763109880743
+        },
+        {
+          "id": "1763109890196",
+          "content": "i ment like this \n$$\nH(z) = \\sum_{n=-\\infty}^{\\infty} h[n] z^{-n}\n$$",
+          "role": "user",
+          "timestamp": 1763109890196
+        },
+        {
+          "id": "chatcmpl-CbjiE1vvsjprb2L2CIPvtKzO8NI6b",
+          "content": "Certainly! If you want to express \\( H(z) \\) as a bilateral (two-sided) Z-transform, which includes both positive and negative powers of \\( z^{-1} \\), you can write it in LaTeX for Obsidian like this:\n\n```markdown\n$$\nH(z) = \\sum_{n=-\\infty}^{\\infty} h[n] z^{-n}\n$$\n```\n\nThis representation includes all possible values of \\( n \\), allowing for both causal and non-causal components in the system's impulse response \\( h[n] \\).",
+          "role": "assistant",
+          "timestamp": 1763109892119
+        },
+        {
+          "id": "1763110120519",
+          "content": "what is impulse response is it (h(n)) or H(z) and why ? \nwhat is its formula? ",
+          "role": "user",
+          "timestamp": 1763110120519
+        },
+        {
+          "id": "chatcmpl-CbjlxTUqChlwVx5P9Eou9wqSZvWVE",
+          "content": "Short answer: the impulse response is the time-domain sequence h[n] (or h(t) in continuous time). H(z) is its Z-transform — the transfer function (frequency-/complex-domain representation). H(z) and h[n] are two representations of the same LTI system.\n\nKey points and formulas (use in Obsidian LaTeX):\n\n- Definition of the unit impulse (discrete):\n$$\n\\delta[n]=\\begin{cases}1,&n=0,\\\\0,&n\\ne0.\\end{cases}\n$$\n\n- Impulse response: the output of the system when the input is the unit impulse:\n$$\nh[n]=\\text{output when } x[n]=\\delta[n].\n$$\n\n- Z-transform (transfer function) of the impulse response:\n$$\nH(z)=\\mathcal{Z}\\{h[n]\\}=\\sum_{n=-\\infty}^{\\infty} h[n]\\,z^{-n}.\n$$\n\n- Input–output relation (convolution in time, multiplication in z‑domain):\n$$\ny[n]=(h*x)[n]=\\sum_{k=-\\infty}^{\\infty} h[k]\\,x[n-k],\n\\qquad\nY(z)=H(z)\\,X(z).\n$$\n\n- Inverse Z‑transform (to recover h[n] from H(z)):\n$$\nh[n]=\\frac{1}{2\\pi j}\\oint_C H(z)\\,z^{\\,n-1}\\,dz,\n$$\nor by expanding H(z) as a power series in \\(z^{-1}\\):\n$$\nH(z)=\\sum_{n=-\\infty}^{\\infty} h[n]\\,z^{-n}\\quad\\Longrightarrow\\quad h[n]=\\text{coefficient of }z^{-n}.\n$$\n\n- Useful properties:\n  - Causality ⇔ \\(h[n]=0\\) for \\(n<0\\).\n  - BIBO stability (discrete) ⇔ \\(\\sum_{n=-\\infty}^\\infty |h[n]|<\\infty\\).\n  - Frequency response: \\(H(e^{j\\omega})=\\sum_n h[n] e^{-j\\omega n}\\) (evaluate \\(H(z)\\) on the unit circle if ROC includes it).\n\nSo: h[n] is the impulse response (time-domain). H(z) is its Z-transform (complex-/frequency-domain representation).",
+          "role": "assistant",
+          "timestamp": 1763110139144
+        },
+        {
+          "id": "1763135488867",
+          "content": "[[M3]] format this note",
+          "role": "user",
+          "timestamp": 1763135488867,
+          "linkedNotes": [
+            {
+              "path": "Btech/S5/Digital Signal Processing/PYQ/M3.md",
+              "filename": "M3",
+              "content": "Passband: 0.9≤∣H(ejω)∣≤1,  0≤ω≤ωp0.9 \\le |H(e^{j\\omega})| \\le 1,\\; 0\\le\\omega\\le\\omega_p0.9≤∣H(ejω)∣≤1,0≤ω≤ωp​.  \nStopband: ∣H(ejω)∣≤0.2,  ωs=3π/4≤ω≤π|H(e^{j\\omega})|\\le 0.2,\\; \\omega_s = 3\\pi/4 \\le \\omega \\le \\pi∣H(ejω)∣≤0.2,ωs​=3π/4≤ω≤π.  \nSampling period T=1T=1T=1 s.  \n(Interpretation note: the PDF text is slightly garbled around ωp\\omega_pωp​. I took the standard exam-style interpretation and used ωp=π/2\\omega_p=\\pi/2ωp​=π/2 which is a common choice; if your problem intended a different ωp\\omega_pωp​, the numeric result changes only in the prewarp step — the procedure stays identical.)\ncopilot format this note \nDesign a digital Butterworth IIR filter that meets the above specifications using the bilinear transform method. Provide the following:\nThe order N of the filter."
+            }
+          ]
+        },
+        {
+          "id": "chatcmpl-CbqN9PpAQRzONQd1gqMSqaOf69bpX",
+          "content": "[[M3]]\n\nDesign (bilinear transform / Butterworth) — find filter order N\n$$\n\\begin{aligned}\n&\\text{Given (from [[M3]]):}\\quad 0.9 \\le |H(e^{j\\omega})|\\le 1,\\; 0\\le\\omega\\le\\omega_p,\\qquad |H(e^{j\\omega})|\\le 0.2,\\; \\omega_s=\\tfrac{3\\pi}{4}\\le\\omega\\le\\pi,\\\\\n&\\text{sampling period: }T=1,\\qquad\\text{interpretation: }\\omega_p=\\tfrac{\\pi}{2}.\n\\end{aligned}\n$$\n\n1) Convert magnitude specs to dB\n$$\nA_p=-20\\log_{10}(0.9)\\approx 0.915\\ \\text{dB},\\qquad\nA_s=-20\\log_{10}(0.2)\\approx 13.979\\ \\text{dB}.\n$$\n\n2) Prewarp digital edge frequencies (bilinear, \\(T=1\\))\n$$\n\\Omega_p=\\tan\\!\\left(\\frac{\\omega_p}{2}\\right)=\\tan\\!\\left(\\frac{\\pi/2}{2}\\right)=\\tan\\!\\left(\\frac{\\pi}{4}\\right)=1,\n$$\n$$\n\\Omega_s=\\tan\\!\\left(\\frac{\\omega_s}{2}\\right)=\\tan\\!\\left(\\frac{3\\pi/8}\\right)=1+\\sqrt{2}\\approx 2.41421356.\n$$\n\n3) Butterworth order formula\n$$\nN = \\left\\lceil \\frac{\\ln\\!\\left(\\dfrac{10^{0.1A_s}-1}{\\,10^{0.1A_p}-1\\,}\\right)}{2\\ln\\!\\left(\\dfrac{\\Omega_s}{\\Omega_p}\\right)} \\right\\rceil.\n$$\n\nInsert numbers:\n$$\n10^{0.1A_p}-1 \\approx 10^{0.091515}-1 \\approx 0.2342,\\qquad\n10^{0.1A_s}-1 \\approx 10^{1.3979}-1 \\approx 24.\n$$\n$$\n\\frac{10^{0.1A_s}-1}{10^{0.1A_p}-1}\\approx \\frac{24}{0.2342}\\approx 102.45,\\qquad\n2\\ln\\!\\left(\\frac{\\Omega_s}{\\Omega_p}\\right)=2\\ln(2.4142)\\approx 1.7627.\n$$\n$$\nN=\\left\\lceil\\frac{\\ln(102.45)}{1.7627}\\right\\rceil=\\left\\lceil\\frac{4.629}{1.7627}\\right\\rceil=\\lceil 2.626\\rceil=3.\n$$\n\nAnswer:\n$$\n\\boxed{N=3}\n$$\n\n(If you want, I can continue and compute the analog prototype cutoff \\(\\Omega_c\\), the analog poles, and then apply the bilinear transform to get the final digital IIR coefficients.)",
+          "role": "assistant",
+          "timestamp": 1763135523331
+        }
+      ],
+      "createdAt": 1763109660771,
+      "updatedAt": 1763135523331,
+      "model": {
+        "label": "GPT-4o",
+        "value": "gpt-4o-2024-08-06"
+      }
+    }
+  ],
+  "activeConversationId": "1763109660771"
+}
