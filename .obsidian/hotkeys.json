@@ -4,12 +4,6 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "W"
-    },
-    {
-      "modifiers": [
-        "Alt"
-      ],
       "key": "1"
     },
     {
@@ -121,7 +115,7 @@
   "workspace:goto-tab-4": [],
   "workspace:goto-tab-5": [],
   "workspace:goto-tab-6": [],
-  "omnisearch:show-modal": [
+  "workspace:close": [
     {
       "modifiers": [
         "Mod"
@@ -129,5 +123,12 @@
       "key": "W"
     }
   ],
-  "workspace:close": []
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ]
 }
