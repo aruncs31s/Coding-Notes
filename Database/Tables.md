@@ -21,3 +21,15 @@ create table <table_name>
 DROP TABLE <table_name>;
 
 ```
+
+
+```sql
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    Address VARCHAR(255),
+    City VARCHAR(255)
+);
+```
+
