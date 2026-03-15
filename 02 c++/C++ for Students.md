@@ -756,7 +756,7 @@ In this section you will learn about this is not in some particular order
 | syntactic sugar | make it readable |
 
  >[!important]
- >You should know [[Basics|this]] before doing this. 
+ >You should know [[03 Coding/GO/Basics|this]] before doing this. 
 
 ## 1. Functions 
 **Def:** According to [this](https://www.geeksforgeeks.org/c-functions/) article  -> A function in C is a set of statements that, when called, perform some specific tasks 
@@ -1168,7 +1168,7 @@ while(expression)
 - [ ] Complete loops 
 
 ## C++ Structs
-You all will be familiar with C structs if dont check this [[Basics|Structs]]. 
+You all will be familiar with C structs if dont check this [[03 Coding/GO/Basics|Structs]]. 
 Look at one #example
 
 ```cpp
