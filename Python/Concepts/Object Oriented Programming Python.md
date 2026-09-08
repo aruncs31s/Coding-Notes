@@ -70,7 +70,6 @@ print(type(1.5)) # class 'float'
 
 >[!success]- **Output**
 >```
-
 ><class 'int'>
 ><class 'str'>
 ><class 'float'>
