@@ -7,6 +7,8 @@ tags:
 dg-publish: true
 ---
 # React
+- [[React Cheat Sheet]]
+- [[TypeScript Cheat Sheet]]
 - [[Integrating JWT]]
 - [[ChartJS]]
 
