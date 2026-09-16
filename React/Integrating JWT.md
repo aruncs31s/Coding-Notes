@@ -8,6 +8,8 @@ dg-publish: true
 ---
 # Integrating JWT 
 
+> Centralized auth context & route protection: [[Auth Provider and Protected Routes]]
+
 ```js
 const handleLoginSubmit = async () => {
   setLoading(true);
