@@ -278,7 +278,7 @@ long double = 1.23131233434343; // 16 bytes
 
 // Charaters 
 char x = "X" ;
-wchar_t x = L"😅";
+wchar_t x = L"";
 
 // Boolean  (0 -> false , 1 -> true)
 bool isComplete = true ;
@@ -747,7 +747,7 @@ In this section you will learn about this is not in some particular order
 5. Classes 
 6. Objects 
 7. 
-**rule** 🔨 -> {**def(what)**,**why**,**when**,**example**}
+**rule**  -> {**def(what)**,**why**,**when**,**example**}
 
 | x               | explenation of x |
 | --------------- | ---------------- |

@@ -7,7 +7,7 @@ tags:
   - creational
 dg-publish: true
 ---
-###  1️⃣ Singleton Pattern
+###  1 Singleton Pattern
 Its like a global variable of instances like every part of the application can access it , it also makes it dificult to test and debug. But easy to use.
 
 ```ts

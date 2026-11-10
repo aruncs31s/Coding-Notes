@@ -341,7 +341,7 @@ func (g *Graph[T]) TopologicalSort() ([]T, error) {
 
 ---
 
-## 📊 BFS vs DFS Comparison
+##  BFS vs DFS Comparison
 
 | Metric | Breadth-First Search (BFS) | Depth-First Search (DFS) |
 |---|---|---|

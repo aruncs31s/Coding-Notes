@@ -12,15 +12,15 @@ dg-publish: true
 ## 1. Resource-Based URLs
 
 ### Use Nouns, Not Verbs
-- ✅ `GET /users` (get all users)
-- ✅ `POST /users` (create a new user)
-- ❌ `GET /getUsers`
-- ❌ `POST /createUser`
+-  `GET /users` (get all users)
+-  `POST /users` (create a new user)
+-  `GET /getUsers`
+-  `POST /createUser`
 
 ### Use Plural Nouns for Collections
-- ✅ `/users` (collection of users)
-- ✅ `/products` (collection of products)
-- ❌ `/user`
+-  `/users` (collection of users)
+-  `/products` (collection of products)
+-  `/user`
 
 ### Hierarchical Resource Structure
 

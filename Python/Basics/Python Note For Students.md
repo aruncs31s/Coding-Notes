@@ -17,19 +17,19 @@ dg-publish: true
 **Should Contain**
 -  [ ] Simple intro
 -  Basics
-	- [x] Variables , Datatypes, Comment ✅ 2025-05-30
-	- [x] Loops ✅ 2025-05-30
-	- [x] Control Statements ✅ 2025-05-30
-	- [x] Functions ✅ 2025-05-30
+	- [x] Variables , Datatypes, Comment  2025-05-30
+	- [x] Loops  2025-05-30
+	- [x] Control Statements  2025-05-30
+	- [x] Functions  2025-05-30
 	- [ ] Scope 
-	- [x] Strings ✅ 2025-05-30
-	- [x] Lists ✅ 2025-05-30
-	- [x] Dictionaries ✅ 2025-05-30
-	- [x] Set ✅ 2025-05-30
+	- [x] Strings  2025-05-30
+	- [x] Lists  2025-05-30
+	- [x] Dictionaries  2025-05-30
+	- [x] Set  2025-05-30
 - OOP 
-	- [x] Inheritance ✅ 2025-05-30
-	- [x] Polymorphism ✅ 2025-05-30
-	- [x] Abstraction ✅ 2025-05-30
+	- [x] Inheritance  2025-05-30
+	- [x] Polymorphism  2025-05-30
+	- [x] Abstraction  2025-05-30
 	- En..
 
 ## First Program

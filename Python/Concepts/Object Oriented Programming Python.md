@@ -336,7 +336,7 @@ print(arun_age)
 > - adding `__` to the beginning of the attribute name makes it private.
 > - You can access private attributes by using `_ClassName__attribute_name` syntax. (Not recommented) 
 
-Instead you should do something like this 💯 , Which is best practice.
+Instead you should do something like this  , Which is best practice.
 
 ```python
 class Person:
@@ -372,7 +372,7 @@ class child_class(parent_class):
 ```
 
 >[!question]- **Why**
-> Because it is like the inheritance in the realworld and makes sense. Like a real chile often inherits the properties of the parent. if not consider money as a property , their chile will inherit the money too.😅
+> Because it is like the inheritance in the realworld and makes sense. Like a real chile often inherits the properties of the parent. if not consider money as a property , their chile will inherit the money too.
 
 #example  
 Let say we have a class `Animal` and we want to create a class `Dog` which inherits the properties of `Animal`. and then create a class named `Cat` which inherits the properties of `Animal`.  Then create a new class named `GermanShepherd` which inherits the properties of `Dog`. and according to [this](https://pawsindia.com/pages/german-shepherd) gernal the the `GermanShepherd` is good in search and rescue. 
@@ -411,15 +411,15 @@ if we visualize it
 
 ```mermaid
 mindmap
-	root((🦁 Animal))
+	root(( Animal))
 		{{Name}}
-		)😺 Cat(
-			(😸 meow)
-		)🐶 Dog(
-			(🦮 bark)
-			))🐕‍🦺 German Sheperd((
-				(🔎search)
-				(🚑rescue)
+		) Cat(
+			( meow)
+		) Dog(
+			( bark)
+			))‍ German Sheperd((
+				(search)
+				(rescue)
     
 
 ```
@@ -428,12 +428,12 @@ and if take the German Sheperd alone it will now have the attribute `name` and m
 
 ```mermaid
 mindmap
-	root((🐕‍🦺 German
+	root((‍ German
 			shepherd))
 		{{Name}}
-		(🦮 bark)
-		(🔎 search)
-		(🚑 rescue)
+		( bark)
+		( search)
+		( rescue)
 
 ```
 

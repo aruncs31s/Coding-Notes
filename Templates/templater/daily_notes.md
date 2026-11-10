@@ -20,7 +20,7 @@ tags:: [[+Daily Notes]]
 
 
 
-## 📋 Tasks
+##  Tasks
 
 
 ### Today's Tasks
@@ -36,32 +36,32 @@ done on <% tp.date.now("YYYY-MM-DD") %>
 ```
 
 
-## 📅 Daily Reflection
+##  Daily Reflection
 
 
-### 🙌 What am I excited about today?
+###  What am I excited about today?
 
 - 
 
 
-### 🎯 What do I want to accomplish today?
+###  What do I want to accomplish today?
 
 - [ ] 
 - [ ] 
 - [ ] 
 
 
-### 🤔 What challenges am I facing?
+###  What challenges am I facing?
 
 - 
 
 
-### 🌟 What am I grateful for?
+###  What am I grateful for?
 
 - 
 
 
-## 📝 Notes
+##  Notes
 
 <%* app.workspace.activeLeaf.view.editor?.focus(); %>
 
@@ -69,7 +69,7 @@ done on <% tp.date.now("YYYY-MM-DD") %>
 
 
 
-## 📊 Today's Activity
+##  Today's Activity
 
 
 ### Notes Created Today

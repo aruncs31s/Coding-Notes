@@ -128,14 +128,14 @@ func (s *UserService) CreateUser(name, email string) error {
 
 ## When to Use
 
-✅ **Use Repository Pattern when:**
+ **Use Repository Pattern when:**
 
 - You have complex data access logic
 - You need to support multiple data sources
 - You want to improve testability
 - You're building a large application with clear layers
 
-❌ **Consider alternatives when:**
+ **Consider alternatives when:**
 
 - You have simple CRUD operations only
 - The application is very small

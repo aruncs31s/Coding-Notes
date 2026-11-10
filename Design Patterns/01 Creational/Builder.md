@@ -69,11 +69,11 @@ const request = new RequestBuilder()
 
 ```
 
-#### ✅ **Benefits**
+####  **Benefits**
 > *Feels like cooking a dish step by step*
 > *But someone who uses this code can clearly understand what every parameter does.* 
 
-- ✅ **Separation of concerns**: Construction logic is separated from the object representation
-- ✅ **Fluent interface**: Allows chaining methods for a more readable and expressive API
-- ✅ **Flexibility**: Can create different representations of the same object without changing the construction process
+-  **Separation of concerns**: Construction logic is separated from the object representation
+-  **Fluent interface**: Allows chaining methods for a more readable and expressive API
+-  **Flexibility**: Can create different representations of the same object without changing the construction process
 

@@ -53,7 +53,6 @@ https://mariadb.org/get-involved/
 
 ```mysql
 CREATE DATABASE myapp_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
 ```
 
 ```sql

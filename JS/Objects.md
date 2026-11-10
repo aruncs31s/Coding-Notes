@@ -16,7 +16,7 @@ console.log(obj);
 
 ```
 
-- [ ] check this 📅 🏁 delete 
+- [ ] check this   delete 
 
 ```js
 let obj = {

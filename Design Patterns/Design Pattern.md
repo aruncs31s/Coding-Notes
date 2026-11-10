@@ -16,25 +16,25 @@ dg-publish: true
 - [[SOLID principle]]
 - [[Decorator]]
 
-## 📚 Design Pattern Categories
-- [[Creational Patterns|🪛Creational Patterns]]
-- [[Structural Pattern|🏠Structural Pattern]]
-- [[Behavioral Pattern|🤝 Behavioral Patterns]]
+##  Design Pattern Categories
+- [[Creational Patterns|Creational Patterns]]
+- [[Structural Pattern|Structural Pattern]]
+- [[Behavioral Pattern| Behavioral Patterns]]
 ---
-## 📖 Definition
+##  Definition
 
 Design patterns are **descriptions of communicating objects and classes** that are customized to solve a general design problem in a particular context. They help create **reusable object-oriented software** that is flexible, elegant, and maintainable.
 
 > *"They reuse solutions that have worked for them in the past"*
 
 ### Key Benefits
-- 🎯 **Specific to the problem** at hand but **general enough** for future requirements
-- 🔄 **Reusable solutions** that have been proven effective
-- 🏗️ Make object-oriented designs more **flexible**, **elegant**, and **reusable**
+-  **Specific to the problem** at hand but **general enough** for future requirements
+-  **Reusable solutions** that have been proven effective
+-  Make object-oriented designs more **flexible**, **elegant**, and **reusable**
 
 ---
 
-## 🎨 Core Principles
+##  Core Principles
 
 ### State Pattern
 > [!Abstract] Represent states with objects
@@ -55,7 +55,7 @@ Design patterns are **descriptions of communicating objects and classes** that a
 
 ---
 
-## 🔧 Popular Patterns 
+##  Popular Patterns 
 - [[Factory Design Pattern]]
 - [[Builder]]
 - [[Singleton]]
@@ -111,7 +111,7 @@ void someFunction(){
 
 ---
 
-## 📚 References
+##  References
 
 [^1]: [Factory Method Pattern - Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
 [^2]: [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.javier8a.com/itc/bd1/articulo.pdf)

@@ -16,7 +16,7 @@ dg-publish: true
 
 > A comprehensive architectural guide to building a centralized `AuthProvider` in React + TypeScript, managing guest vs authenticated users, and implementing clean route protection.
 
-### 🔗 Related Vault Notes
+###  Related Vault Notes
 - [[React Cheat Sheet]]: Context API, Hooks, and Component Lifecycle
 - [[TypeScript Cheat Sheet]]: Typing interfaces, context, and generic props
 - [[Integrating JWT]]: Low-level JWT storage, decoding, and login/signup handlers

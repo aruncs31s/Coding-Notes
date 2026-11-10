@@ -13,18 +13,18 @@ dg-publish: true
 
 In this the users dont have to worry about the instantiation logic, they just need to call the factory method and get the object they need. It hides the complexity of object creation and provides a simple interface for users. 
 
-#### ✅ **Benefits:**
+####  **Benefits:**
 - **Easier maintenance** and reuse of code
 - **Typical solution** to common object creation problems
 - **Flexibility** in object creation without tight coupling
 
-#### ❌ **Drawbacks:**
+####  **Drawbacks:**
 - **Increased complexity** with multiple subclasses
 - **Adds an extra layer of abstraction**
 - **Potential for code duplication** in subclasses
 - **Increased Coupling** Instances are very coupled to the 
 
-#### ❌ **Without Factory Method**
+####  **Without Factory Method**
 
 ```ts
 const type = "admin"; // or "moderator", "user"
@@ -54,7 +54,7 @@ switch (type) {
 
 **Usage:**
 
-#### ❌ **Without Factory Method In GO**
+####  **Without Factory Method In GO**
 
 ```go
 type User interface {
@@ -74,7 +74,7 @@ func (a *Admin) SetPermissions(permissions []string) {
 
 ```  
 
-#### ✅ **With Factory Method**
+####  **With Factory Method**
 
 ```ts
 class UserFactory {
@@ -104,7 +104,7 @@ user.setPermissions(["read", "write", "delete"]);
 
 ```
 
-#### ✅ **With Factory Method In GO**
+####  **With Factory Method In GO**
 
 ```go
 type UserFactory interface {

@@ -78,7 +78,7 @@ console.log(`Wind Speed in MPH: ${weather.getWindSpeedMPH()}`);
 
 ```
 
-## 📚 Used In 
+##  Used In 
 - [[SOLID principle]]
 - [[Design Pattern]]
 - [[Structural Pattern]]

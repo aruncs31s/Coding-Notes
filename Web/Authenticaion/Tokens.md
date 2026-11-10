@@ -18,7 +18,7 @@ Here’s the clean breakdown without pretending it’s mystical:
 
 * * *
 
-## 🔐 Auth Token (Access Token)
+##  Auth Token (Access Token)
 
 This is your **“let me in right now” pass**.
 
@@ -33,11 +33,11 @@ This is your **“let me in right now” pass**.
 * If leaked → attacker gets temporary access
     
 
-👉 Think: _hotel room key that expires soon_
+ Think: _hotel room key that expires soon_
 
 * * *
 
-## 🔄 Refresh Token
+##  Refresh Token
 
 This is your **“get me a new pass without logging in again” ticket**.
 
@@ -50,11 +50,11 @@ This is your **“get me a new pass without logging in again” ticket**.
 * Not sent with every request
     
 
-👉 Think: _ID at the reception to get a new room key_
+ Think: _ID at the reception to get a new room key_
 
 * * *
 
-## ⚔️ Why both exist (because one wasn’t enough)
+##  Why both exist (because one wasn’t enough)
 
 If you only had a long-lived auth token:
 
@@ -75,7 +75,7 @@ So:
 
 * * *
 
-## 🔁 Typical Flow
+##  Typical Flow
 
 1. User logs in  
     → gets **auth token + refresh token**
@@ -92,7 +92,7 @@ So:
 
 * * *
 
-## 🧠 Security Insight (the part most people mess up)
+##  Security Insight (the part most people mess up)
 
 * Store auth token in memory (or short-term storage)
     
@@ -103,7 +103,7 @@ So:
 
 * * *
 
-## 🧾 Quick Comparison
+##  Quick Comparison
 
 | Feature | Auth Token | Refresh Token |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ So:
 
 * * *
 
-## 🧨 Brutal truth
+##  Brutal truth
 
 Most devs:
 

@@ -26,14 +26,14 @@ dg-publish: true
 >
 > You can switch between them at runtime.
 
-## ✅ When to Use Strategy Pattern
+##  When to Use Strategy Pattern
 - You want to use different variants of an algorithm (e.g., different sorting techniques).
 
 - You want to avoid using many **conditional statements** (`if-else` or `switch`) to choose behavior.
 
 - You want to make algorithms interchangeable and independently testable.
 
-## 🏗️ Structure of Strategy Pattern
+##  Structure of Strategy Pattern
 
 ```go
 type Strategy interface {

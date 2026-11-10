@@ -151,7 +151,7 @@ using backticks`
 var b byte = 255
 
 // Rune (alias for int32, represents Unicode code point)
-var r rune = '♠'
+var r rune = ''
 
 ```
 

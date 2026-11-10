@@ -232,7 +232,7 @@ func main() {
 
 ---
 
-## 🔒 Security Checklist for Go File Uploads
+##  Security Checklist for Go File Uploads
 
 | Vulnerability | Mitigation in Go |
 |---|---|

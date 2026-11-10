@@ -228,7 +228,7 @@ user@example.com
 Use emoji shortcodes or Unicode.
 
 ```markdown
-:smile: or 😀
+:smile: or 
 ```
 
 ## Abbreviations

@@ -26,7 +26,7 @@ func main() {
 >[!WARNING]
 > Allowing all origins disables cookies for clients. For credentialed requests, do not allow all origins.
 
-- [x] pre-flight `OPTIONS` requests. ✅ 2025-07-23
+- [x] pre-flight `OPTIONS` requests.  2025-07-23
 
 >  It is a small, preliminary request that the browser sends  automatically before sending the actual `HTTP` request
 - Before the actual request. 

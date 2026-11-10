@@ -17,7 +17,7 @@ A comprehensive, production-grade guide to implementing core data structures and
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 | # | Topic | Key Concepts Covered | Link |
 |---|---|---|---|
@@ -32,7 +32,7 @@ A comprehensive, production-grade guide to implementing core data structures and
 
 ---
 
-## 🐹 Go-Specific DSA Essentials
+##  Go-Specific DSA Essentials
 
 ### 1. Value vs. Pointer Receivers
 In Go, structs are passed by value (copied) unless a pointer is used.
@@ -80,7 +80,7 @@ type Node[T cmp.Ordered] struct {
 
 ---
 
-## ⚡ Complexity Cheat Sheet
+##  Complexity Cheat Sheet
 
 | Data Structure / Algorithm | Access | Search | Insertion | Deletion | Space |
 |---|---|---|---|---|---|

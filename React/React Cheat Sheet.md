@@ -14,7 +14,7 @@ dg-publish: true
 
 > Quick reference guide for React fundamentals, modern hooks, component lifecycle, patterns, and TypeScript integration.
 
-### 🔗 Related Vault Notes
+###  Related Vault Notes
 - [[React]]: Project setup, Vite templates, and project structure
 - [[Integrating JWT]]: Handling JWT authentication tokens, login forms, and API requests in React
 - [[30 Days Of React]]: Structured learning plan and React drills
@@ -399,8 +399,8 @@ export const useLogin = () => {
 
 > [!WARNING]
 > 1. **Never mutate state directly:**
->    - ❌ `state.push(newItem)`
->    - ✅ `setState(prev => [...prev, newItem])`
+>    -  `state.push(newItem)`
+>    -  `setState(prev => [...prev, newItem])`
 > 2. **Rules of Hooks:**
 >    - Only call hooks at the **top level** of components/custom hooks.
 >    - Never call hooks inside loops, conditions, or nested functions.

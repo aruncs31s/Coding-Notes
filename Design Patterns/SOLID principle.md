@@ -124,7 +124,7 @@ In developer perspective think of it as like following a good pattern where you 
 ## 2. Open/Closed Principle (OCP)
 should be open for extension but closed for modification.
 
-###  Without ❌ 
+###  Without  
 
 ```go
 type Circle struct {  
@@ -144,7 +144,7 @@ return 0
 
 ```
 
-###  ✅ With OCP 
+###   With OCP 
 
 ```go
 type Shape interface {  

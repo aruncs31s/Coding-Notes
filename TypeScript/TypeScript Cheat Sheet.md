@@ -14,7 +14,7 @@ dg-publish: true
 
 > Quick reference guide for TypeScript types, syntax, generics, and utility patterns.
 
-### 🔗 Related Vault Notes
+###  Related Vault Notes
 - [[Basics|JS Basics]]: Core JavaScript syntax and scoping
 - [[Arrow Functions|JS Arrow Functions]]: Arrow function syntax and lexical `this`
 - [[Classes|JS Classes]]: OOP classes and prototypes

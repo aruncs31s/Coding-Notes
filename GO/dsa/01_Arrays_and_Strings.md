@@ -189,7 +189,7 @@ func (ps *PrefixSum) RangeSum(left, right int) int {
 
 ---
 
-## 💡 Go Best Practices for Slice Manipulation
+##  Go Best Practices for Slice Manipulation
 1. **Avoid slice memory leaks**: When sub-slicing a large slice `large[0:2]`, the garbage collector cannot free the underlying array of `large`. Use `copy()` to isolate small subsets:
    ```go
    sub := make([]int, 2)

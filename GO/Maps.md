@@ -202,7 +202,7 @@ func ExampleMapsStandardPackage() {
 
 ---
 
-## ⚠️ Go Map Pitfalls & Best Practices
+##  Go Map Pitfalls & Best Practices
 
 1. **Reading from a `nil` map is safe**: Returns the zero value (`var m map[string]int; val := m["foo"] // 0`).
 2. **Writing to a `nil` map PANICS**:

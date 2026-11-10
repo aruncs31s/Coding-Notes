@@ -38,7 +38,7 @@ Constructor Injection and Setter Injection ?
 
 - [ ] Checkout microservices architecture 
 
-#### ✅ Benefits:
+####  Benefits:
 
 Helps you to **decouple** the external logic of your implementation 
 

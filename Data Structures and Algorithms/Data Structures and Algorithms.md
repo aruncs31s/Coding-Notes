@@ -10,8 +10,8 @@ dg-publish: true
 
 ## Contents
 
-- [x] [[Arrays.md]] ✅ 2024-09-18
-- [x] [[Linked List]] ✅ 2024-09-18
+- [x] [[Arrays.md]]  2024-09-18
+- [x] [[Linked List]]  2024-09-18
   - [[Doubly Linked List]]
 - [ ] [[Hash Table]]
 
